@@ -1,0 +1,21 @@
+<resources>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="fab_margin">16dp</dimen>
+
+	<!-- CM12 Battery Meter -->
+	<dimen name="battery_level_text_size">12.0sp</dimen>
+	<!-- Padding between signal cluster and battery icon -->
+	<dimen name="signal_cluster_battery_padding">7dp</dimen>
+	<dimen name="header_battery_margin_keyguard">6.0dp</dimen>
+	<dimen name="cm_battery_level_text_size">12.0sp</dimen>
+	<dimen name="battery_margin_bottom">1.0dp</dimen>
+
+	<!-- Network Traffic -->
+	<dimen name="net_traffic_single_text_size">10dp</dimen>
+	<dimen name="net_traffic_multi_text_size">7dp</dimen>
+
+
+
+</resources>

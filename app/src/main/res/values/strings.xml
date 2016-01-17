@@ -1,0 +1,44 @@
+<resources>
+	<string name="app_name">AsusSystemUI</string>
+	<string name="action_settings">Settings</string>
+
+	<!-- Screenrecord Notification Ticker -->
+	<string name="screenrecord_notif_ticker">Screen is being recorded</string>
+	<string name="screenrecord_notif_title">Recording screen</string>
+	<string name="screenrecord_notif_stop">Stop</string>
+	<string name="screenrecord_notif_pointer">Toggle pointer</string>
+    <string name="screenrecord_notif_pointer_on">Show pointer</string>
+    <string name="screenrecord_notif_pointer_off">Hide pointer</string>
+	<string name="screenrecord_notif_error">Unable to record screen</string>
+
+	<!-- CM12 Battery Meter -->
+	<string name="accessibility_battery_level">Battery %d percent.</string>
+	<!-- BatteryMeterView parameters -->
+	<array name="batterymeter_color_levels">
+		<item>15</item>
+		<item>100</item>
+	</array>
+	<array name="batterymeter_color_values">
+		<item>@color/battery_saver_mode_color</item>
+		<item>@color/batterymeter_base_color</item>
+	</array>
+	<array name="batterymeter_bolt_points">
+		<item>73</item> <item>0</item>
+		<item>392</item><item>0</item>
+		<item>201</item><item>259</item>
+		<item>442</item><item>259</item>
+		<item>4</item>  <item>703</item>
+		<item>157</item><item>334</item>
+		<item>0</item>  <item>334</item>
+	</array>
+	<array name="batterymeter_inverted_bolt_points" translatable="false">
+		<item>743</item><item>73</item>
+		<item>743</item><item>292</item>
+		<item>442</item><item>201</item>
+		<item>442</item><item>400</item>
+		<item>0</item><item>20</item>
+		<item>369</item><item>157</item>
+		<item>369</item><item>0</item>
+	</array>
+	<string name="battery_meter_very_low_overlay_symbol">!</string>
+</resources>
